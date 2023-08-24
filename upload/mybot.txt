@@ -1,3 +1,8 @@
 a=b
 c=d
 e=f
+How are you?=Fine, Pretty well and How may I help you?
+What kind of product do you have?=We have special cake, chocolate, coffee and many more...
+How much does it cost?= 100$ per item
+Any discounts?=Yeah! 99.9$ This is very special price
+Thank you= Welcome! Anything you want? go head and grab.
