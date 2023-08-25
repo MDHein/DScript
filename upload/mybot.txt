@@ -6,3 +6,5 @@ What kind of product do you have?=We have special cake, chocolate, coffee and ma
 How much does it cost?= 100$ per item
 Any discounts?=Yeah! 99.9$ This is very special price
 Thank you= Welcome! Anything you want? go head and grab.
+
+g=h
