@@ -1,1 +1,378 @@
-var _0x40ea=["\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x6F\x6F\x6C\x62\x61\x72\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6E\x61\x76\x2D\x6C\x61\x72\x67\x65\x22\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6E\x61\x76\x2D\x73\x6D\x61\x6C\x6C\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6E\x61\x76\x2D\x69\x74\x65\x6D\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x6F\x6E\x44\x72\x61\x77\x65\x72\x28\x29\x3B\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x74\x65\x72\x69\x61\x6C\x2D\x73\x79\x6D\x62\x6F\x6C\x73\x2D\x72\x6F\x75\x6E\x64\x65\x64\x22\x3E\x20\x6D\x65\x6E\x75\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x22\x61\x70\x70\x2D\x6E\x61\x6D\x65\x22\x3E\x41\x70\x70\x4E\x61\x6D\x65\x3C\x2F\x68\x33\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6E\x61\x76\x2D\x69\x74\x65\x6D\x20\x6D\x6F\x72\x65\x2D\x6F\x70\x74\x69\x6F\x6E\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x73\x68\x6F\x77\x4F\x70\x74\x69\x6F\x6E\x49\x74\x65\x6D\x73\x28\x29\x3B\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x74\x65\x72\x69\x61\x6C\x2D\x73\x79\x6D\x62\x6F\x6C\x73\x2D\x72\x6F\x75\x6E\x64\x65\x64\x22\x3E\x6D\x6F\x72\x65\x5F\x76\x65\x72\x74\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6F\x70\x74\x69\x6F\x6E\x2D\x6D\x65\x6E\x75\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x72\x61\x77\x65\x72\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x72\x61\x77\x65\x72\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x72\x61\x77\x65\x72\x2D\x74\x6F\x70\x22\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x72\x61\x77\x65\x72\x2D\x63\x6C\x6F\x73\x65\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x6F\x6E\x44\x72\x61\x77\x65\x72\x28\x29\x3B\x22\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x62\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x74\x65\x72\x69\x61\x6C\x2D\x73\x79\x6D\x62\x6F\x6C\x73\x2D\x72\x6F\x75\x6E\x64\x65\x64\x22\x3E\x20\x61\x64\x64\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x73\x68\x6F\x77\x44\x69\x61\x6C\x6F\x67\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x6D\x2D\x6C\x61\x79\x6F\x75\x74\x22\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x64\x69\x61\x6C\x6F\x67\x4E\x61\x6D\x65\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x61\x6C\x6F\x67\x22\x3E\x3C\x70\x3E\x3C\x2F\x70\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x6F\x77\x22\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22\x75\x6E\x61\x63\x74\x69\x6F\x6E\x22\x3E\x43\x61\x6E\x63\x65\x6C\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x69\x64\x3D\x22\x61\x63\x74\x69\x6F\x6E\x22\x3E\x4F\x6B\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x62\x6F\x64\x79","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x62\x65\x66\x6F\x72\x65\x65\x6E\x64","\x69\x6E\x73\x65\x72\x74\x41\x64\x6A\x61\x63\x65\x6E\x74\x48\x54\x4D\x4C","\x2E\x61\x70\x70\x2D\x6E\x61\x6D\x65","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x2E\x64\x72\x61\x77\x65\x72","\x6F\x76\x65\x72\x66\x6C\x6F\x77","\x73\x74\x79\x6C\x65","\x61\x75\x74\x6F","\x77\x69\x64\x74\x68","\x30","\x68\x69\x64\x64\x65\x6E","\x31\x30\x30\x25","\x2E\x6E\x61\x76\x2D\x6C\x61\x72\x67\x65","\x2E\x64\x72\x61\x77\x65\x72\x2D\x63\x6F\x6E\x74\x65\x6E\x74","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6E\x61\x76\x2D\x69\x74\x65\x6D\x22\x3E","\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x72\x61\x77\x65\x72\x2D\x69\x74\x65\x6D\x22\x3E","\x3C\x64\x69\x76\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x76\x69\x65\x77\x4C\x69\x6E\x6B\x28\x27","\x27\x29\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6E\x61\x76\x2D\x69\x74\x65\x6D\x22\x3E","\x27\x29\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x72\x61\x77\x65\x72\x2D\x69\x74\x65\x6D\x22\x3E","\x2E\x6D\x6F\x72\x65\x2D\x6F\x70\x74\x69\x6F\x6E","\x2E\x6F\x70\x74\x69\x6F\x6E\x2D\x6D\x65\x6E\x75","\x64\x69\x73\x70\x6C\x61\x79","\x62\x6C\x6F\x63\x6B","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x22\x3E","\x27\x29\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x74\x65\x6D\x22\x3E","\x63\x6C\x69\x63\x6B","\x74\x61\x72\x67\x65\x74","\x63\x6F\x6E\x74\x61\x69\x6E\x73","\x6E\x6F\x6E\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x73\x68\x6F\x77\x44\x69\x61\x6C\x6F\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x64\x69\x61\x6C\x6F\x67\x4E\x61\x6D\x65","\x70","\x75\x6E\x61\x63\x74\x69\x6F\x6E","\x61\x63\x74\x69\x6F\x6E","\x73\x74\x6F\x70\x50\x72\x6F\x70\x61\x67\x61\x74\x69\x6F\x6E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x6F\x61\x73\x74\x22\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E","\x2E\x74\x6F\x61\x73\x74","\x72\x65\x6D\x6F\x76\x65","\x6F\x66\x66\x73\x65\x74\x57\x69\x64\x74\x68","\x6F\x70\x61\x63\x69\x74\x79","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22","\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x62\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x61\x74\x65\x72\x69\x61\x6C\x2D\x73\x79\x6D\x62\x6F\x6C\x73\x2D\x72\x6F\x75\x6E\x64\x65\x64\x22\x3E\x20\x61\x64\x64\x20\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E","\x6F\x6E\x43\x6C\x69\x63\x6B","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x64","\x61\x64\x64\x49\x6E","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x73\x65\x74\x54\x65\x78\x74","\x73\x65\x74\x53\x69\x7A\x65","\x66\x6F\x6E\x74\x53\x69\x7A\x65","\x73\x65\x74\x57\x69\x64\x74\x68","\x73\x65\x74\x48\x65\x69\x67\x68\x74","\x68\x65\x69\x67\x68\x74","\x73\x65\x74\x50\x61\x64\x64\x69\x6E\x67","\x70\x61\x64\x64\x69\x6E\x67","\x73\x65\x74\x4D\x61\x72\x67\x69\x6E","\x6D\x61\x72\x67\x69\x6E","\x73\x65\x74\x43\x6F\x6C\x6F\x72","\x63\x6F\x6C\x6F\x72","\x73\x65\x74\x42\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x73\x65\x74\x47\x72\x61\x76\x69\x74\x79","\x66\x6C\x65\x78","\x6A\x75\x73\x74\x69\x66\x79\x43\x6F\x6E\x74\x65\x6E\x74","\x61\x6C\x69\x67\x6E\x49\x74\x65\x6D\x73","\x73\x65\x74\x47\x72\x61\x76\x69\x74\x79\x43\x65\x6E\x74\x65\x72","\x63\x65\x6E\x74\x65\x72","\x73\x65\x74\x47\x72\x61\x76\x69\x74\x79\x56\x65\x72\x74\x69\x63\x61\x6C","\x73\x65\x74\x47\x72\x61\x76\x69\x74\x79\x48\x6F\x72\x69\x7A\x6F\x6E\x74\x61\x6C","\x73\x65\x74\x42\x6F\x6C\x64","\x66\x6F\x6E\x74\x57\x65\x69\x67\x68\x74","\x62\x6F\x6C\x64","\x73\x65\x74\x41\x73\x54\x69\x74\x6C\x65","\x32\x30\x70\x78","\x73\x65\x74\x4C\x61\x79\x65\x72","\x7A\x49\x6E\x64\x65\x78","\x73\x65\x74\x43\x6C\x61\x73\x73","\x63\x6C\x61\x73\x73","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x69\x6D\x67","\x73\x65\x74\x49\x6D\x61\x67\x65","\x73\x72\x63","\x73\x65\x74\x46\x69\x74","\x6F\x62\x6A\x65\x63\x74\x46\x69\x74","\x73\x65\x74\x46\x69\x74\x43\x6F\x76\x65\x72","\x63\x6F\x76\x65\x72","\x61\x6C\x74","\x73\x65\x74\x43\x69\x72\x63\x6C\x65","\x62\x6F\x72\x64\x65\x72\x52\x61\x64\x69\x75\x73","\x35\x30\x25","\x73\x65\x74\x42\x6F\x72\x64\x65\x72","\x62\x6F\x72\x64\x65\x72","\x31\x70\x78\x20\x73\x6F\x6C\x69\x64\x20\x23\x63\x63\x63","\x73\x65\x74\x4F\x72\x69\x65\x6E\x74\x61\x74\x69\x6F\x6E","\x76\x65\x72\x74\x69\x63\x61\x6C","\x66\x6C\x65\x78\x44\x69\x72\x65\x63\x74\x69\x6F\x6E","\x63\x6F\x6C\x75\x6D\x6E","\x72\x6F\x77"];const toolbarHTML=_0x40ea[0];const optionMenuHTML=_0x40ea[1];const drawerHTML=_0x40ea[2];const fabHTML=_0x40ea[3];const dialogHTML=_0x40ea[4];const body=document[_0x40ea[6]](_0x40ea[5]);body[_0x40ea[8]](_0x40ea[7],toolbarHTML);body[_0x40ea[8]](_0x40ea[7],optionMenuHTML);body[_0x40ea[8]](_0x40ea[7],drawerHTML);body[_0x40ea[8]](_0x40ea[7],dialogHTML);const appName=document[_0x40ea[6]](_0x40ea[9]);function setAppName(_0xd8fax9){appName[_0x40ea[10]]= _0xd8fax9}const drawer=document[_0x40ea[6]](_0x40ea[11]);var isOpenDrawer=false;function onDrawer(){if(isOpenDrawer){body[_0x40ea[13]][_0x40ea[12]]= _0x40ea[14];drawer[_0x40ea[13]][_0x40ea[15]]= _0x40ea[16];isOpenDrawer= false}else {body[_0x40ea[13]][_0x40ea[12]]= _0x40ea[17];drawer[_0x40ea[13]][_0x40ea[15]]= _0x40ea[18];isOpenDrawer= true}}const navLarge=document[_0x40ea[6]](_0x40ea[19]);const drawerContent=document[_0x40ea[6]](_0x40ea[20]);function createMenuItem(_0xd8fax9,_0xd8fax10){if(_0xd8fax10=== undefined){let _0xd8fax11=(_0x40ea[21]+ _0xd8fax9+ _0x40ea[22]);let _0xd8fax12=(_0x40ea[23]+ _0xd8fax9+ _0x40ea[22]);navLarge[_0x40ea[8]](_0x40ea[7],_0xd8fax11);drawerContent[_0x40ea[8]](_0x40ea[7],_0xd8fax12)}else {let _0xd8fax11=(_0x40ea[24]+ _0xd8fax10+ _0x40ea[25]+ _0xd8fax9+ _0x40ea[22]);let _0xd8fax12=(_0x40ea[24]+ _0xd8fax10+ _0x40ea[26]+ _0xd8fax9+ _0x40ea[22]);navLarge[_0x40ea[8]](_0x40ea[7],_0xd8fax11);drawerContent[_0x40ea[8]](_0x40ea[7],_0xd8fax12)}}const moreOption=document[_0x40ea[6]](_0x40ea[27]);const optionMenu=document[_0x40ea[6]](_0x40ea[28]);function showOptionItems(){optionMenu[_0x40ea[13]][_0x40ea[29]]= _0x40ea[30]}function createOptionItem(_0xd8fax9,_0xd8fax10){if(_0xd8fax10=== undefined){let _0xd8fax11=(_0x40ea[31]+ _0xd8fax9+ _0x40ea[22]);optionMenu[_0x40ea[8]](_0x40ea[7],_0xd8fax11)}else {let _0xd8fax11=(_0x40ea[24]+ _0xd8fax10+ _0x40ea[32]+ _0xd8fax9+ _0x40ea[22]);optionMenu[_0x40ea[8]](_0x40ea[7],_0xd8fax11)}}document[_0x40ea[37]](_0x40ea[33],(_0xd8fax17)=>{if(!optionMenu[_0x40ea[35]](_0xd8fax17[_0x40ea[34]])&&  !moreOption[_0x40ea[35]](_0xd8fax17[_0x40ea[34]])){optionMenu[_0x40ea[13]][_0x40ea[29]]= _0x40ea[36]}});const showDialog=document[_0x40ea[39]](_0x40ea[38]);const sampleDialog=document[_0x40ea[39]](_0x40ea[40]);let message=sampleDialog[_0x40ea[6]](_0x40ea[41]);const unaction=document[_0x40ea[39]](_0x40ea[42]);const action=document[_0x40ea[39]](_0x40ea[43]);showDialog[_0x40ea[37]](_0x40ea[33],function(_0xd8fax17){if(_0xd8fax17[_0x40ea[34]]=== showDialog){showDialog[_0x40ea[13]][_0x40ea[29]]= _0x40ea[36]}});sampleDialog[_0x40ea[37]](_0x40ea[33],function(_0xd8fax17){_0xd8fax17[_0x40ea[44]]()});action[_0x40ea[37]](_0x40ea[33],function(){showDialog[_0x40ea[13]][_0x40ea[29]]= _0x40ea[36]});unaction[_0x40ea[37]](_0x40ea[33],function(){showDialog[_0x40ea[13]][_0x40ea[29]]= _0x40ea[36]});function showAlert(_0xd8fax9){showDialog[_0x40ea[13]][_0x40ea[29]]= _0x40ea[30];message[_0x40ea[10]]= _0xd8fax9}function showToast(_0xd8fax9){let _0xd8fax1f=(_0x40ea[45]+ _0xd8fax9+ _0x40ea[46]);body[_0x40ea[8]](_0x40ea[7],_0xd8fax1f);let _0xd8fax20=document[_0x40ea[6]](_0x40ea[47]);setTimeout(function(){_0xd8fax20[_0x40ea[48]]()},2000);_0xd8fax20[_0x40ea[49]];_0xd8fax20[_0x40ea[13]][_0x40ea[50]]= 1}function createFab(_0xd8fax22){const fabHTML=(_0x40ea[51]+ _0xd8fax22+ _0x40ea[52]);body[_0x40ea[8]](_0x40ea[7],fabHTML);let _0xd8fax23=document[_0x40ea[39]](_0xd8fax22);_0xd8fax23[_0x40ea[53]]= function(_0xd8fax24){_0xd8fax23[_0x40ea[37]](_0x40ea[33],_0xd8fax24)};return _0xd8fax23}function viewLink(_0xd8fax9){window[_0x40ea[55]][_0x40ea[54]]= _0xd8fax9;optionMenu[_0x40ea[13]][_0x40ea[29]]= _0x40ea[36];if(isOpenDrawer){onDrawer()}}function createTextView(_0xd8fax22){var _0xd8fax27=document[_0x40ea[57]](_0x40ea[56]);_0xd8fax27[_0x40ea[58]]= _0xd8fax22;_0xd8fax27[_0x40ea[59]]= function(_0xd8fax28){_0xd8fax28[_0x40ea[60]](this)};_0xd8fax27[_0x40ea[61]]= function(_0xd8fax28){this[_0x40ea[10]]= _0xd8fax28};_0xd8fax27[_0x40ea[62]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[63]]= _0xd8fax28};_0xd8fax27[_0x40ea[64]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[15]]= _0xd8fax28};_0xd8fax27[_0x40ea[65]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[66]]= _0xd8fax28};_0xd8fax27[_0x40ea[67]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[68]]= _0xd8fax28};_0xd8fax27[_0x40ea[69]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[70]]= _0xd8fax28};_0xd8fax27[_0x40ea[71]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[72]]= _0xd8fax28};_0xd8fax27[_0x40ea[73]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[74]]= _0xd8fax28};_0xd8fax27[_0x40ea[75]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0xd8fax28;this[_0x40ea[13]][_0x40ea[78]]= _0xd8fax28};_0xd8fax27[_0x40ea[79]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0x40ea[80];this[_0x40ea[13]][_0x40ea[78]]= _0x40ea[80]};_0xd8fax27[_0x40ea[81]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[78]]= _0x40ea[80]};_0xd8fax27[_0x40ea[82]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0x40ea[80]};_0xd8fax27[_0x40ea[83]]= function(){this[_0x40ea[13]][_0x40ea[84]]= _0x40ea[85]};_0xd8fax27[_0x40ea[86]]= function(){this[_0x40ea[13]][_0x40ea[63]]= _0x40ea[87];this[_0x40ea[13]][_0x40ea[84]]= _0x40ea[85]};_0xd8fax27[_0x40ea[88]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[89]]= _0xd8fax28};_0xd8fax27[_0x40ea[90]]= function(_0xd8fax28){this[_0x40ea[92]](_0x40ea[91],_0xd8fax28)};_0xd8fax27[_0x40ea[53]]= function(_0xd8fax24){this[_0x40ea[37]](_0x40ea[33],_0xd8fax24)};return _0xd8fax27}function createImageView(_0xd8fax22){var _0xd8fax2a=document[_0x40ea[57]](_0x40ea[93]);_0xd8fax2a[_0x40ea[58]]= _0xd8fax22;_0xd8fax2a[_0x40ea[59]]= function(_0xd8fax28){_0xd8fax28[_0x40ea[60]](this)};_0xd8fax2a[_0x40ea[94]]= function(_0xd8fax28){this[_0x40ea[95]]= _0xd8fax28};_0xd8fax2a[_0x40ea[96]]= function(_0xd8fax28){this[_0x40ea[97]]= _0xd8fax28};_0xd8fax2a[_0x40ea[98]]= function(_0xd8fax28){this[_0x40ea[97]]= _0x40ea[99]};_0xd8fax2a[_0x40ea[61]]= function(_0xd8fax28){this[_0x40ea[100]]= _0xd8fax28};_0xd8fax2a[_0x40ea[64]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[15]]= _0xd8fax28};_0xd8fax2a[_0x40ea[65]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[66]]= _0xd8fax28};_0xd8fax2a[_0x40ea[67]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[68]]= _0xd8fax28};_0xd8fax2a[_0x40ea[69]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[70]]= _0xd8fax28};_0xd8fax2a[_0x40ea[71]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[72]]= _0xd8fax28};_0xd8fax2a[_0x40ea[73]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[74]]= _0xd8fax28};_0xd8fax2a[_0x40ea[75]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0xd8fax28;this[_0x40ea[13]][_0x40ea[78]]= _0xd8fax28};_0xd8fax2a[_0x40ea[79]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0x40ea[80];this[_0x40ea[13]][_0x40ea[78]]= _0x40ea[80]};_0xd8fax2a[_0x40ea[81]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[78]]= _0x40ea[80]};_0xd8fax2a[_0x40ea[82]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0x40ea[80]};_0xd8fax2a[_0x40ea[101]]= function(){this[_0x40ea[13]][_0x40ea[102]]= _0x40ea[103]};_0xd8fax2a[_0x40ea[104]]= function(){this[_0x40ea[13]][_0x40ea[105]]= _0x40ea[106]};_0xd8fax2a[_0x40ea[88]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[89]]= _0xd8fax28};_0xd8fax2a[_0x40ea[90]]= function(_0xd8fax28){this[_0x40ea[92]](_0x40ea[91],_0xd8fax28)};_0xd8fax2a[_0x40ea[53]]= function(_0xd8fax24){this[_0x40ea[37]](_0x40ea[33],_0xd8fax24)};return _0xd8fax2a}function createView(_0xd8fax22){var _0xd8fax2c=document[_0x40ea[57]](_0x40ea[56]);_0xd8fax2c[_0x40ea[58]]= _0xd8fax22;_0xd8fax2c[_0x40ea[59]]= function(_0xd8fax28){_0xd8fax28[_0x40ea[60]](this)};_0xd8fax2c[_0x40ea[61]]= function(_0xd8fax28){this[_0x40ea[10]]= _0xd8fax28};_0xd8fax2c[_0x40ea[64]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[15]]= _0xd8fax28};_0xd8fax2c[_0x40ea[65]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[66]]= _0xd8fax28};_0xd8fax2c[_0x40ea[67]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[68]]= _0xd8fax28};_0xd8fax2c[_0x40ea[69]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[70]]= _0xd8fax28};_0xd8fax2c[_0x40ea[107]]= function(_0xd8fax28){if(_0xd8fax28=== _0x40ea[108]){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[109]]= _0x40ea[110]}else {this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[109]]= _0x40ea[111]}};_0xd8fax2c[_0x40ea[71]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[72]]= _0xd8fax28};_0xd8fax2c[_0x40ea[73]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[74]]= _0xd8fax28};_0xd8fax2c[_0x40ea[75]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0xd8fax28;this[_0x40ea[13]][_0x40ea[78]]= _0xd8fax28};_0xd8fax2c[_0x40ea[79]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0x40ea[80];this[_0x40ea[13]][_0x40ea[78]]= _0x40ea[80]};_0xd8fax2c[_0x40ea[81]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[78]]= _0x40ea[80]};_0xd8fax2c[_0x40ea[82]]= function(){this[_0x40ea[13]][_0x40ea[29]]= _0x40ea[76];this[_0x40ea[13]][_0x40ea[77]]= _0x40ea[80]};_0xd8fax2c[_0x40ea[88]]= function(_0xd8fax28){this[_0x40ea[13]][_0x40ea[89]]= _0xd8fax28};_0xd8fax2c[_0x40ea[90]]= function(_0xd8fax28){this[_0x40ea[92]](_0x40ea[91],_0xd8fax28)};_0xd8fax2c[_0x40ea[53]]= function(_0xd8fax24){this[_0x40ea[37]](_0x40ea[33],_0xd8fax24)};return _0xd8fax2c}
+const toolbarHTML = `<div class="toolbar"><div class="nav-large"></div><div class="nav-small"><div class="nav-item" onclick="onDrawer();"><span class="material-symbols-rounded"> menu</span></div><h3 class="app-name">AppName</h3></div><div class="nav-item more-option" onclick="showOptionItems();"><span class="material-symbols-rounded">more_vert</span></div></div>`;
+
+const optionMenuHTML = `<div class="option-menu"></div>`;
+
+const drawerHTML = `<div class="drawer"><div class="drawer-content"><div class="drawer-top"></div></div><div class="drawer-close" onclick="onDrawer();"></div></div>`;
+const fabHTML = `<div class="fab"><span class="material-symbols-rounded"> add </span></div>`;
+
+const dialogHTML = `<div id="showDialog" class="dim-layout"><div id="dialogName" class="dialog"><p></p><div class="row"><button id="unaction">Cancel</button><button id="action">Ok</button></div></div></div>`;
+
+
+
+const body = document.querySelector('body');
+body.insertAdjacentHTML("beforeend", toolbarHTML);
+body.insertAdjacentHTML("beforeend", optionMenuHTML);
+body.insertAdjacentHTML("beforeend", drawerHTML);
+body.insertAdjacentHTML("beforeend", dialogHTML);
+
+/* AppName Setup Start*/
+const appName = document.querySelector('.app-name');
+function setAppName(s) {
+  appName.textContent = s;
+}
+/* AppName Setup End*/
+
+
+
+/* Drawer Setup Start */
+const drawer = document.querySelector('.drawer');
+var isOpenDrawer = false;
+function onDrawer() {
+  if (isOpenDrawer) {
+    body.style.overflow = "auto";
+    drawer.style.width = "0";
+    isOpenDrawer = false;
+  } else {
+    body.style.overflow = "hidden";
+    drawer.style.width = "100%";
+    isOpenDrawer = true;
+  }
+}
+/* Drawer Setup End */
+
+/* Menu Setup Start */
+const navLarge = document.querySelector('.nav-large');
+const drawerContent = document.querySelector('.drawer-content');
+
+function createMenuItem(s, l) {
+  if (l === undefined) {
+    let a = `<div class="nav-item">${s}</div>`;
+    let b = `<div class="drawer-item">${s}</div>`;
+    navLarge.insertAdjacentHTML("beforeend", a);
+    drawerContent.insertAdjacentHTML("beforeend", b);
+  } else {
+    let a = `<div onclick="viewLink('${l}')" class="nav-item">${s}</div>`;
+    let b = `<div onclick="viewLink('${l}')" class="drawer-item">${s}</div>`;
+    navLarge.insertAdjacentHTML("beforeend", a);
+    drawerContent.insertAdjacentHTML("beforeend", b);
+  }
+}
+/* Menu Setup End */
+
+/* Option Menu Setup start */
+const moreOption = document.querySelector('.more-option');
+const optionMenu = document.querySelector('.option-menu');
+function showOptionItems() {
+  optionMenu.style.display = 'block';
+}
+function createOptionItem(s, l) {
+  if (l === undefined) {
+    let a = `<div class="item">${s}</div>`;
+    optionMenu.insertAdjacentHTML("beforeend", a);
+  } else {
+    let a = `<div onclick="viewLink('${l}')" class="item">${s}</div>`;
+    optionMenu.insertAdjacentHTML("beforeend", a);
+  }
+
+}
+document.addEventListener("click", (event) => {
+  if (!optionMenu.contains(event.target) && !moreOption.contains(event.target)) {
+    optionMenu.style.display = 'none';
+  }
+});
+/* Option Menu Setup End */
+
+/* Dialog setup start */
+const showDialog = document.getElementById('showDialog');
+const sampleDialog = document.getElementById('dialogName');
+let message = sampleDialog.querySelector('p');
+const unaction = document.getElementById('unaction');
+const action = document.getElementById('action');
+
+showDialog.addEventListener('click', function(event) {
+  if (event.target === showDialog) {
+    showDialog.style.display = 'none';
+  }
+});
+sampleDialog.addEventListener('click', function(event) {
+  event.stopPropagation();
+});
+action.addEventListener('click', function() {
+  showDialog.style.display = 'none';
+});
+
+unaction.addEventListener('click', function() {
+  showDialog.style.display = 'none';
+});
+
+function showAlert(s) {
+  showDialog.style.display = 'block';
+  message.textContent = s;
+}
+function showToast(s) {
+  let toastHTML = `<span class="toast">${s}</span>`;
+  body.insertAdjacentHTML("beforeend",
+    toastHTML);
+  let toast = document.querySelector(".toast");
+  setTimeout(function() {
+    toast.remove();
+  },
+    2000);
+  toast.offsetWidth;
+  toast.style.opacity = 1;
+}
+
+/* Dialog setup end */
+
+/* Fab setup star */
+function createFab(id) {
+  const fabHTML = `<div id="${id}" class="fab"><span class="material-symbols-rounded"> add </span></div>`;
+  body.insertAdjacentHTML("beforeend",
+    fabHTML);
+  let fab = document.getElementById(id);
+  fab.onClick = function(callback) {
+    fab.addEventListener("click",
+      callback);
+  };
+  return fab;
+}
+
+/* Fab setup end*/
+
+function viewLink(s) {
+  window.location.href = s;
+  optionMenu.style.display = 'none';
+  if (isOpenDrawer) {
+    onDrawer();
+  }
+}
+
+/* Main Content Setup Start */
+
+function createTextView(id) {
+  var textView = document.createElement("div");
+  textView.id = id;
+
+  textView.addIn = function(text) {
+    text.appendChild(this);
+  };
+  textView.setText = function(text) {
+    this.textContent = text;
+  };
+  textView.setSize = function(text) {
+    this.style.fontSize = text;
+  };
+  textView.setWidth = function(text) {
+    this.style.width = text;
+  };
+  textView.setHeight = function(text) {
+    this.style.height = text;
+  };
+  textView.setPadding = function(text) {
+    this.style.padding = text;
+  };
+  textView.setMargin = function(text) {
+    this.style.margin = text;
+  };
+  textView.setColor = function(text) {
+    this.style.color = text;
+  };
+  textView.setBackground = function(text) {
+    this.style.background = text;
+  };
+  textView.setGravity = function(text) {
+    this.style.display = 'flex';
+    this.style.justifyContent = text;
+    this.style.alignItems = text;
+  };
+  textView.setGravityCenter = function() {
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignItems = 'center';
+  };
+  textView.setGravityVertical = function() {
+    this.style.display = 'flex';
+    this.style.alignItems = 'center';
+  };
+  textView.setGravityHorizontal = function() {
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+  };
+  textView.setBold = function() {
+    this.style.fontWeight = "bold";
+  };
+  textView.setAsTitle = function() {
+    this.style.fontSize = "20px";
+    this.style.fontWeight = "bold";
+  };
+
+  textView.setLayer = function(text) {
+    this.style.zIndex = text;
+  };
+  textView.setClass = function(text) {
+    this.setAttribute("class",
+      text);
+  };
+  textView.onClick = function(callback) {
+    this.addEventListener("click",
+      callback);
+  };
+
+
+  return textView;
+}
+
+function createImageView(id) {
+  var imageView = document.createElement("img");
+  imageView.id = id;
+
+  imageView.addIn = function(text) {
+    text.appendChild(this);
+  };
+  imageView.setImage = function(text) {
+    this.src = text;
+  };
+  imageView.setFit = function(text) {
+    this.objectFit = text;
+  };
+  imageView.setFitCover = function(text) {
+    this.objectFit = 'cover';
+  };
+  imageView.setText = function(text) {
+    this.alt = text;
+  };
+  imageView.setWidth = function(text) {
+    this.style.width = text;
+  };
+  imageView.setHeight = function(text) {
+    this.style.height = text;
+  };
+  imageView.setPadding = function(text) {
+    this.style.padding = text;
+  };
+  imageView.setMargin = function(text) {
+    this.style.margin = text;
+  };
+
+  imageView.setColor = function(text) {
+    this.style.color = text;
+  };
+  imageView.setBackground = function(text) {
+    this.style.background = text;
+  };
+  imageView.setGravity = function(text) {
+    this.style.display = 'flex';
+    this.style.justifyContent = text;
+    this.style.alignItems = text;
+  };
+  imageView.setGravityCenter = function() {
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignItems = 'center';
+  };
+  imageView.setGravityVertical = function() {
+    this.style.display = 'flex';
+    this.style.alignItems = 'center';
+  };
+  imageView.setGravityHorizontal = function() {
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+  };
+
+  imageView.setCircle = function() {
+    this.style.borderRadius = "50%";
+  };
+  imageView.setBorder = function() {
+    this.style.border = "1px solid #ccc";
+  };
+
+  imageView.setLayer = function(text) {
+    this.style.zIndex = text;
+  };
+  imageView.setClass = function(text) {
+    this.setAttribute("class",
+      text);
+  };
+  imageView.onClick = function(callback) {
+    this.addEventListener("click",
+      callback);
+  };
+
+
+  return imageView;
+}
+
+function createView(id) {
+  var view = document.createElement("div");
+  view.id = id;
+
+  view.addIn = function(text) {
+    text.appendChild(this);
+  };
+  view.setText = function(text) {
+    this.textContent = text;
+  };
+  view.setWidth = function(text) {
+    this.style.width = text;
+  };
+  view.setHeight = function(text) {
+    this.style.height = text;
+  };
+  view.setPadding = function(text) {
+    this.style.padding = text;
+  };
+  view.setMargin = function(text) {
+    this.style.margin = text;
+  };
+  view.setOrientation = function(text) {
+    if (text === 'vertical') {
+      this.style.display = 'flex';
+      this.style.flexDirection = 'column';
+    } else {
+      this.style.display = 'flex';
+      this.style.flexDirection = 'row';
+    }
+  };
+  view.setColor = function(text) {
+    this.style.color = text;
+  };
+  view.setBackground = function(text) {
+    this.style.background = text;
+  };
+  view.setGravity = function(text) {
+    this.style.display = 'flex';
+    this.style.justifyContent = text;
+    this.style.alignItems = text;
+  };
+  view.setGravityCenter = function() {
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+    this.style.alignItems = 'center';
+  };
+  view.setGravityVertical = function() {
+    this.style.display = 'flex';
+    this.style.alignItems = 'center';
+  };
+  view.setGravityHorizontal = function() {
+    this.style.display = 'flex';
+    this.style.justifyContent = 'center';
+  };
+
+
+  view.setLayer = function(text) {
+    this.style.zIndex = text;
+  };
+  view.setClass = function(text) {
+    this.setAttribute("class",
+      text);
+  };
+  view.onClick = function(callback) {
+    this.addEventListener("click",
+      callback);
+  };
+
+
+  return view;
+}
+
+/* Main Content Setup End */
