@@ -1,10 +1,11 @@
-a=b
-c=d
-e=f
-How are you?=Fine, Pretty well and How may I help you?
-What kind of product do you have?=We have special cake, chocolate, coffee and many more...
-How much does it cost?= 100$ per item
-Any discounts?=Yeah! 99.9$ This is very special price
-Thank you= Welcome! Anything you want? go head and grab.
-
-g=h
+Can I learn more about QuickFast App?=Sure, you can learn more about QuickFast App. First, from basic to advanced you will need to know about programming languages and development environment.
+Can you tell me more about courses?=There are there type of course. 1. Beginner course 2. Intermediate course and 3. Advanced course 
+Is anyone available to chat?=Yes, I have. How can I help you?
+How can I build app?=You can build app by clicking on plus icon and fill the details. That it's.
+How to create app step by step?=You can create app by 1. filling the form 2. add action to proceed and 3. Generate. If you want to create more advanced App learn more about QuickFast courses.
+Are you accepting new student?
+How much does an app cost?=Creating an app in QuickFast is totally free and no cost.
+I have a question? Can you help me?=Sure, Go ahead
+Can someone assist me?=Sure, How may I assist you?
+What type of payment do you accept?=Online Payment like kpay, wavepay
+Can I get your phone number?=Sure, Here is my number 09*****673
