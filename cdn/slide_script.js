@@ -6,7 +6,7 @@ document.head.appendChild(slideShowCssLink);
 
 function createWiSlideShowIn(c) {
   const wiSSHTML = `<div class="wi-slideshow"><span class="wi-slideshow-prev material-symbols-rounded" onclick="changeSlide(-1)">arrow_back_ios</span><span class="wi-slideshow-next material-symbols-rounded" onclick="changeSlide(1)">arrow_forward_ios</span><div class="wi-slideshow-indicator-group"><span class="wi-slideshow-pause material-symbols-rounded" onclick="pauseSlideshow()">pause</span><span class="wi-slideshow-resume material-symbols-rounded" onclick="resumeSlideshow()">resume</span></div></div>`;
-  c.insertAdjacentHTML("beforeend", wiSSHTML);
+  c.insertAdjacentHTML("afterbegin", wiSSHTML);
 }
 
 function addNewSlide(url, n) {
