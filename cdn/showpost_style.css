@@ -47,6 +47,7 @@
   align-items: center;
 }
 .wi-showpost-label {
+  color: var(--text-color);
   display: flex;
   justify-content: space-between;
   padding: 5px 15px;
@@ -129,6 +130,7 @@
 /* --ACTIVITY SECTION -- */
 
 #activityLayout {
+  color: var(--text-color);
   display: none;
   flex-direction: column;
   position: fixed;
@@ -215,6 +217,7 @@
 /* --SEARCH SECTION -- */
 
 #searchLayout {
+  color: var(--text-color);
   display: none;
   flex-direction: column;
   position: fixed;
