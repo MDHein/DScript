@@ -31,29 +31,18 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-:root {
-  --text-color: #000;
-  --icon-color: #ACACBE;
-  --icon-hover-bg: #5b5e71;
-  --placeholder-color: #dcdcdc;
-  --primary-color: #fff;
-  --secondary-color: #ccc;
-  --color-accent: #bae7fa;
-  --hover-color: rgba(0,0,0,0.1);
-}
 .wi-showpost {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .wi-showpost-label {
-  color: var(--text-color);
   display: flex;
   justify-content: space-between;
   padding: 5px 15px;
 }
 .wi-showpost-label:hover {
-  background: var(--hover-color);
+  background: rgba(0,0,0,0.1);
 }
 .wi-listview {
   list-style: none;
@@ -130,7 +119,6 @@
 /* --ACTIVITY SECTION -- */
 
 #activityLayout {
-  color: var(--text-color);
   display: none;
   flex-direction: column;
   position: fixed;
@@ -139,24 +127,25 @@
   height: 100%;
   overflow: hidden;
   z-index: 9;
+  color: #e8e8e8;
+  background: #252525;
 }
 #activityLayout .toolbar {
   flex: 0 0 60px;
   display: flex;
   align-items: center;
-  background: var(--primary-color);
+  background: #181818;
   box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
 #activityMain {
   flex: 1;
   overflow-y: auto;
-  background: var(--secondary-color);
 }
 #activityClose {
   padding: 10px 20px;
 }
 #activityClose:hover {
-  background: var(--hover-color);
+  background: rgba(0,0,0,0.1);
 }
 #activityContent {
   padding: 20px 40px;
@@ -217,7 +206,8 @@
 /* --SEARCH SECTION -- */
 
 #searchLayout {
-  color: var(--text-color);
+  color: #e8e8e8;
+  background: #252525;
   display: none;
   flex-direction: column;
   position: fixed;
@@ -231,19 +221,18 @@
   flex: 0 0 60px;
   display: flex;
   align-items: center;
-  background: var(--primary-color);
+  background: #181818;
   box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
 #searchMain {
   flex: 1;
   overflow-y: auto;
-  background: var(--secondary-color);
 }
 #searchClose {
   padding: 10px 20px;
 }
 #searchClose:hover {
-  background: var(--hover-color);
+  background: rgba(0,0,0,0.1);
 }
 #searchInput {
   padding: 10px 50px 10px 25px;
