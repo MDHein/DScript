@@ -1,8 +1,8 @@
-var cssLink = document.createElement("link");
-cssLink.href = "https://cdn.jsdelivr.net/gh/MDHein/DScript@main/cdn/slide_style.css";
-cssLink.rel = "stylesheet";
-cssLink.type = "text/css";
-document.head.appendChild(cssLink);
+var slideShowCssLink = document.createElement("link");
+slideShowCssLink.href = "https://cdn.jsdelivr.net/gh/MDHein/DScript@main/cdn/slide_style.css";
+slideShowCssLink.rel = "stylesheet";
+slideShowCssLink.type = "text/css";
+document.head.appendChild(slideShowCssLink);
 
 function createWiSlideShowIn(c) {
   const wiSSHTML = `<div class="wi-slideshow"><span class="wi-slideshow-prev material-symbols-rounded" onclick="changeSlide(-1)">arrow_back_ios</span><span class="wi-slideshow-next material-symbols-rounded" onclick="changeSlide(1)">arrow_forward_ios</span><div class="wi-slideshow-indicator-group"><span class="wi-slideshow-pause material-symbols-rounded" onclick="pauseSlideshow()">pause</span><span class="wi-slideshow-resume material-symbols-rounded" onclick="resumeSlideshow()">resume</span></div></div>`;
