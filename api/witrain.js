@@ -5,12 +5,48 @@ async function loadReplyBox() {
  if (!response.ok) {
   throw new Error('JSON: Network response was not ok');
  }
- replyBox = response.json();
- console.log(replyBox);
+ return response.json();
 }
-loadReplyBox();
+async function getMessage(words) {
+ replyBox = await loadReplyBox();
+ for (var i in replyBox) {
+  var wordslist = replyBox[i].part1;
+  for (var ii in wordslist) {
+   var statelist = wordslist[ii].sentence;
+   for (var iii in statelist) {
+    var one = statelist[iii].one;
+    var two = statelist[iii].two;
+    var three = statelist[iii].three;
+    if (one.includes(words)) {
+     var classify = replyBox[i].part2;
+     var response = replyBox[i].part3;
+     if (three === "-") {
 
-function getMessage(words) {
+      let reply = response;
+      console.log(reply);
+      return reply;
+     } else
+      if (three.startsWith("-")) {
+      three = three.replace("-", "");
+      let reply = response + three;
+      console.log(reply);
+      return reply;
+     } else
+      if (three.endsWith("-")) {
+      three = three.replace("-", "");
+      console.log(three);
+      return three;
+     }
+     let reply = three + response;
+     console.log(reply);
+     return reply;
+    }
+   }
+  }
+ }
+ return "No answer!";
+}
+function getMessageSimple(words) {
  for (var i in replyBox) {
   var wordslist = replyBox[i].part1;
   for (var ii in wordslist) {
