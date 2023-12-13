@@ -1,9 +1,15 @@
 let replyBox = [];
-            async function loadReplyBox() {
-             replyBox = await
-             getJson("https://raw.githubusercontent.com/MDHein/DScript/main/api/wiai.json");
-             // to do
-            }
+async function loadReplyBox() {
+ let response = await
+ fetch("https://raw.githubusercontent.com/MDHein/DScript/main/api/wiai.json");
+ if (!response.ok) {
+  throw new Error('JSON: Network response was not ok');
+ }
+ replyBox = response.json();
+ console.log(replyBox);
+}
+loadReplyBox();
+
 function getMessage(words) {
  for (var i in replyBox) {
   var wordslist = replyBox[i].part1;
