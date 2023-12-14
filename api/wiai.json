@@ -112,5 +112,20 @@
     ],
     "part2": "",
     "part3": ""
+  },
+  {
+    "part1": [
+      {
+        "sentence": [
+          {
+            "one": "New Words",
+            "two": "test",
+            "three": "It's testing"
+          }
+        ]
+      }
+    ],
+    "part2": "test",
+    "part3": "Ok Test"
   }
 ]
