@@ -173,5 +173,20 @@
     ],
     "part2": "အကူညီတောင်း",
     "part3": "ပြောပါ"
+  },
+  {
+    "part1": [
+      {
+        "sentence": [
+          {
+            "one": "ဒီနေ့ရာသီဥတု ဘယ်လိုလဲ",
+            "two": "ရာသီဥတုမေးမြန်းခြင်း",
+            "three": "Google မှာ `Weather Today` ရိုက်ရှာကြည့်ပါ -"
+          }
+        ]
+      }
+    ],
+    "part2": "ရာသီဥတုမေးမြန်းခြင်း",
+    "part3": "<br> <strong>Link</strong>:<a href='${https://google.com}'>google.com</a>"
   }
 ]
