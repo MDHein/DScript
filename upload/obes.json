@@ -3,7 +3,7 @@
     "key": "obes01",
     "intro": [
       {
-       "key": "introKey",
+        "key": "introKey",
         "title": "OBES",
         "desc": "Olive Bright Environmental Solutions Limited (OBES) မှာ ပတ်ဝန်းကျင်အရည်အသွေးဆန်းစစ်လေ့လာမှုဆိုင်ရာ ဝန်ဆောင်မှုလုပ်ငန်း တခုဖြစ်ပါသည်",
         "link": "./page/contact.html"
@@ -13,7 +13,7 @@
       {
         "key": "emp",
         "title": "EMP",
-        "desc": "This is a description about EMP ...",
+        "desc": "https://i.pinimg.com/736x/59/c6/b9/59c6b9feb14c75349e49ad1e1f10e2bb.jpg",
         "link": "./page/details.html",
         "image": "https://i.pinimg.com/736x/59/c6/b9/59c6b9feb14c75349e49ad1e1f10e2bb.jpg"
       },
@@ -115,7 +115,11 @@
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
-    "services": [{}],
-    "About": [{}]
+    "services": [
+      {}
+    ],
+    "About": [
+      {}
+    ]
   }
 ]
