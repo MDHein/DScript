@@ -9,6 +9,14 @@
         "link": "./page/contact.html"
       }
     ],
+    "posts":[
+     {
+      "key":"post1",
+      "title": "Post Title",
+      "desc": "Post Description ",
+      "image":
+      "https://www.wildapricot.com/wp-content/uploads/2022/09/default-blogpost.png"
+     }],
     "slides": [
       {
         "key": "emp",
